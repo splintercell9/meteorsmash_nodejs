@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leadboards</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assests/img/icons/leadboard.ico">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/template.css">
+    <link rel="stylesheet" href="/css/lead_all.css"> 
+    <script src="/js/jQuery_3.3.1.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="main_heading">
+            <img id="site-logo"  src="/assests/img/html_assets/logo.png">
+            <p id="gname">Meteor Smash</p><br>
+            <p id="gdescript">Game Based On Phaser.js Library</p>
+        </div>
+    </header>
+    <nav>
+        <ul id="navigation">
+            <li><a href="/">Home</a></li>
+            <li><a href="/controls">Game Instuctions</a></li>
+            <li><a href="/game">Play Game</a></li> <!-- use /public in main project -->
+            <li><a href="/leadboards">Leadboards</a></li>
+        </ul>
+    </nav>
+    <section class="game-section">
+        <noscript>
+            <div class="alert alert-warning">
+                <p>
+                    <strong>JavaScript</strong> is not Enabled in your browser. Please enable it in Settings because this game is totally dependent on JavaScript.
+                </p>
+                <p>
+                    Refresh this page remove to this warning..!!
+                </p>
+            </div>
+        </noscript>     
+    </section>
+    <ol id="leadboards" start="0">
+        <li class="heading"><div class="name">Name</div><div class="country">Country</div><div class="score">Score</div></li>
+            {{#each datas as |data|}}
+                <li class="lable"><span class="name">{{data.name}}</span><span class="country">{{data.country}}</span><span class="score">{{data.score}}</span></li>
+            {{/each}}
+    </ol>
+
+    <div class="alert alert-primary" id="msg" role="alert">
+         * Use the refresh button of the browser to refresh the leadboard list if your score is not present *
+    </div>
+    <div class="link">
+        <a href="https://github.com/splintercell9/meteorsmash"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+        <p class="git">Source Code on <b>GitHub</b></p>
+    </div>
+</body>
+</html>

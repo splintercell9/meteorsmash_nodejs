@@ -1,0 +1,204 @@
+
+
+* {
+    box-sizing: border-box ;
+}
+
+body {
+    min-height: 100% ;
+}
+
+header{
+    width: auto ;
+    height: 20% ;
+    margin-bottom: 1px ;
+}
+
+#site-logo {
+    margin-left: 10% ;
+    float:  left ;
+    height: 80px ;
+    width: 80px ;
+    margin-top: 30px ;
+    animation: shadow 5s ease infinite;
+    transition: 0.5s ;
+    border-radius: 40px ;
+}
+
+#main_heading > p {
+    margin-left: 40px ;
+}
+
+#gname, #gdescript {
+    display: inline-block ;
+}
+
+#gname {
+    font-family: rubberbiscuit ;
+    font-size: 40pt ;
+    margin-bottom: 0px ;
+    margin-top: 10px ;
+}
+
+#gdescript {
+    margin-top: 0px ;
+    position: relative ;
+    left: 1% ;
+    font-family: sgadisplay ;
+    font-size: 20pt ;
+}
+
+
+#main_heading {
+    padding: 10px 0px 0px 10px ;
+}
+
+nav {
+    position: sticky ;
+    left: 0px ;
+    top: 0px ;
+    background-color: white ;
+}
+
+
+#navigation {
+    list-style: none ;
+    width: auto ;
+    height: auto ;
+    margin: 0px ;
+    padding: 0px !important;
+    text-align: center ;
+    margin-top: 5px ;
+    
+}
+
+#navigation > li {
+    display: inline-block ;
+    width: 21% ;
+    padding: 12px 12px 12px 12px ;
+    margin-bottom: 5px ;
+    margin-top: 5px ;
+}
+
+li + li {
+    margin-left: 2% ;
+}
+
+li > a {
+    display: inline-block ;
+    width: 100% ;
+    height: 35px ;
+    line-height: 29px ;
+    text-decoration: none !important;
+    color: white ;
+    font-weight: 600 ;
+    background-color: black ;
+    border: 2px solid black ;
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0) ; 
+    font-size: 15pt ;
+    border-radius: 20px ;
+    transition: 0.5s ;
+}
+
+li > a:hover {
+    /* position: absolute; */
+    transform: translate(0px,-5px) ;
+    box-shadow: 0px 5px 30px rgb(0, 0, 0) ;
+    background-color: white ;
+    color: black ;
+    border: 2px solid white ;
+}
+
+li > a:active {
+    box-shadow: 0px 0px 20px 2px rgb(0, 0, 0) ;
+    background-color: white ;
+    color: black ;
+    border: 2px solid white ;
+}
+
+section {   
+    height: fit-content ;
+    padding-top: 15px ;    
+    text-align: center ;
+}
+
+noscript > div {
+    margin-top: 25px ;
+}
+
+noscript > div > p {
+    display: block ;
+}
+
+.flex-container{
+    display: flex ;
+    height: 360px ;
+    background: transparent ;
+    margin-top: 1% ;
+    padding: 10px 10px 10px 10px ;
+}
+
+.flex-item {
+    width: 95% ;
+    margin-left: auto ;
+    margin-right: auto ;
+    background-color: white ;
+    padding: 20px 20px 20px 20px ;
+    text-align: center ;
+    border-radius: 40px ;
+    transition: 0.5s ;
+    text-shadow: 0px 1px 5px black ;
+}
+
+
+
+dt {
+    text-shadow: none ;
+}
+
+#about {
+    display: block ;
+    width:20% ; 
+    border-bottom: 2px dashed black ;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-bottom: 5px ;
+    overflow: auto ;
+}
+
+#logo {
+    border-radius: 10px ;
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 100px ;
+    height: 100px ;
+    display: block ;
+    box-shadow: 0px 0px 20px 2px rgb(94, 94, 94) ;
+    margin-bottom: 10px ;
+}
+
+.tag-symbols {
+    color: blue ;
+}
+
+.tag {
+    color: maroon ;
+}
+
+.link {
+    text-align: center ;
+    font-size: 10pt ;
+}
+
+.link > a {
+    color: black ;
+}
+
+
+@keyframes shadow{
+    0% { box-shadow: 0px 0px 50px 5px rgb(255, 0, 0) ; }
+    25% { box-shadow: 0px 0px 50px 5px rgb(9, 255, 0) ; }
+    50% { box-shadow: 0px 0px 50px 5px rgb(0, 4, 255) ; }
+    75% { box-shadow: 0px 0px 50px 5px rgb(162, 0, 255) ; }
+    100% { box-shadow: 0px 0px 50px 5px rgb(255, 0, 0) ; }
+} 

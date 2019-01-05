@@ -1,0 +1,99 @@
+
+section {
+    
+    height: fit-content ;
+    padding-top: 15px ;
+    text-align: center ;
+}
+
+noscript > div {
+    margin-top: 25px ;
+}
+
+noscript > div > p {
+    display: block ;
+}
+
+
+body {
+    margin: 0 0 0 0 ;
+    padding: 0px ;
+}
+
+.flex_container{
+    text-align: center ;
+    height: auto ;
+}
+
+
+div.flex_cards {
+    display: inline-block;
+    margin-left: 4% ;
+    margin-right: auto  ;
+    margin-top: 5% ;
+    width: 250px ;
+    height: 300px ;
+    background-color: rgb(255, 255, 255) ;
+    box-shadow: 0px 0px 10px black ;
+    border-radius: 10px ;
+    text-align: center ;
+    transition: 0.5s ;
+    cursor: pointer;
+}
+
+div.flex_cards:nth-child(1),div.flex_cards:nth-child(5) {
+    margin-left: auto ;
+}
+
+.flex_cards:hover {
+    box-shadow: 0px 10px 40px black ;
+}
+
+.images {
+    margin-top: 10px ;
+    width: 80px ;
+    border-radius: 75px ;
+    box-shadow: 0px 0px 15px black ;
+}
+
+.caption {
+    display: block ;
+    margin-top: 10px ;
+    width: 100% ;
+    text-align: center ;
+    height: auto ;
+    font-size: 14pt ;
+    font-weight: bold ; 
+    color: white ;
+    background-color: rgb(104, 113, 243) ;
+
+}
+
+.even{
+    background-color: rgb(243, 104, 201) ;
+}
+
+.desc {
+    height: 50%;
+    /* border: 2px solid black ; */
+    margin: 0 0 0 0; 
+    padding: 12px 8px 8px 8px ;
+    text-align: center ;
+    vertical-align: middle ;
+    font-size: 10pt ;
+}
+
+div.flex_cards:nth-child(2)>div{
+    font-size: 9.8pt ;
+}
+
+div.flex_cards:nth-child(6)>div{
+    font-size: 8.5pt ;
+}
+
+
+
+
+
+
+

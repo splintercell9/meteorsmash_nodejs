@@ -1,0 +1,19 @@
+@font-face {
+    font-family: arcclassic ;
+    src: url('/assests/fonts/ARCADECLASSIC.TTF') ;
+}
+
+@font-face {
+    font-family: bubbleone ;
+    src: url('/assests/fonts/BubblerOne-Regular.ttf') ;
+}
+
+@font-face {
+    font-family: sgadisplay ;
+    src: url('/assests/fonts/SedgwickAveDisplay-Regular.ttf')
+}
+
+@font-face {
+    font-family: rubberbiscuit ;
+    src: url('/assests/fonts/RUBBBB__.TTF') ;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">        
+    <title>Instructions for Game controls</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assests/img/icons/instruction.ico">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/template.css">
+    <link rel="stylesheet" href="/css/ins_all.css"> 
+    <script src="/js/jQuery_3.3.1.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="main_heading">
+            <img id="site-logo" src="/assests/img/html_assets/logo.png">
+            <p id="gname">Meteor Smash</p><br>
+            <p id="gdescript">Game Based On Phaser.js Library</p>
+        </div>
+    </header>
+    <nav>
+        <ul id="navigation">
+            <li><a href="/">Home</a></li>
+            <li><a href="/controls">Game Instuctions</a></li>
+            <li><a href="/game">Play Game</a></li> <!-- use /public in main project -->
+            <li><a href="/leadboards">Leadboards</a></li>
+        </ul>
+    </nav>
+    <section class="game-section">
+        <noscript>
+            <div class="alert alert-warning">
+                <p>
+                    <strong>JavaScript</strong> is not Enabled in your browser. Please enable it in Settings because this game is totally dependent on JavaScript.
+                </p>
+                <p>
+                    Refresh this page remove to this warning..!!
+                </p>
+            </div>
+        </noscript>
+        <div class="flex_container">
+            <div class="flex_cards">
+                <img class="images" src="/assests/img/html_assets/directions.png">
+                <p class="caption odd">MOVE AND FIRE</p>
+                <div class="desc">Use <i class="fa fa-arrow-left" aria-hidden="true"></i> and <i class="fa fa-arrow-right" aria-hidden="true"></i> arrow keys to move spaceship in left and right direction. <br>
+                    Press <b>F</b> key to fire lasers to destroy meteors. If the particular key for firing lasers is pressed for a log period of time then lasers will fire automatically.</div>
+                </div>
+                <div class="flex_cards">
+                    <img class="images" src="/assests/img/html_assets/damage.png">
+                    <p class="caption even">DAMAGE,SCORE & HEALTH</p>
+                    <div class="desc">If lasers hits meteor it gives +50 points.If meteor hits spaceship then health reduces and same case with if meteor passes down it with increase the damage (%). The <i class="fa fa-arrow-down"></i> and <i class="fa fa-arrow-up"></i> of heath and damage based on level.</div>
+                </div>
+                <div class="flex_cards">
+                    <img class="images" src="/assests/img/html_assets/sounds.png">
+                    <p class="caption odd">ALERT SOUNDS</p>
+                    <div class="desc">At three conditions during gameplay sounds <i class="fa fa-volume-up" aria-hidden="true"></i> will be invoked. First, when lasers hit meteors. For, second and third cases alert sound will play when spaceship health is &lt;=20 and damage (%) &gt;=75</div>
+                </div>
+                <div class="flex_cards">
+                    <img class="images" src="/assests/img/html_assets/highscore.png">
+                    <p class="caption even">HIGHSCORES</p>
+                    <div class="desc">For the Highscore to saved on the leadboards page, any player must score above 40,000.
+                        Otherwise at the end of the game the save functionality of the game will be disabled and they have to try until a reasonable score is reached.
+                    </div>
+                </div>
+                <div class="flex_cards">
+                    <img class="images" src="/assests/img/html_assets/level.png">
+                    <p class="caption odd">LEVELS & DIFFICULTY</p>
+                    <div class="desc">There are three difficulty levels <b>Normal, Hard, Insane</b>. As can be understood by name subsequent levels, it will be more tougher than the previous ones i.e. meteors will fall at greater number at faster rates.</div>
+                </div>
+                <div class="flex_cards">
+                    <img class="images" src="/assests/img/html_assets/other.png">
+                    <p class="caption even">OTHER THINGS</p>
+                    <div class="desc"><b>FPS</b> shows the current fps of the game. Remember not to allow any meteor to pass through the influence of spaceship of health of spaceship to reduced to zero otherwise it will be game over. Also, at top-right corner pause/play button is tere If you want to take a break.</div>
+                </div>
+            </div>
+            <br><br>
+            
+        </section>
+        
+        <div class="link">
+            <a href="https://github.com/splintercell9/meteorsmash"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+            <p class="git">Source Code on <b>GitHub</b></p>
+        </div>
+        
+    </body>
+    </html>

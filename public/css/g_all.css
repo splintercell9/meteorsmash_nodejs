@@ -1,0 +1,28 @@
+nav {
+    position: relative;
+}
+
+noscript > div {
+    margin-top: 25px ;
+    text-align: center ;
+}
+
+noscript > div > p {
+    display: block ;
+}
+
+
+
+canvas {
+    margin-top: 30px ;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-bottom: 40px ;
+    box-shadow: 0px 20px 40px rgb(53, 53, 53) ;
+}
+
+.link {
+    position: absolute;
+    top: 980px ;
+    left: 45% ;
+}

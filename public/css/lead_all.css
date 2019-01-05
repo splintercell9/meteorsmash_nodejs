@@ -1,0 +1,88 @@
+#leadboards > li > div{
+    display: inline-block ;
+}
+
+#leadboards {
+    margin-left: 3% ;
+    margin-right: auto ;
+    width: 90% ;
+    margin-top: 10px ;
+}
+
+li + li {
+    margin: 0 ;
+}
+
+.heading {
+    list-style: none ;
+    box-shadow: 0px 0px 25px black ;
+    font-size: 14pt ;
+}
+
+
+.name {
+    width: 22% ;
+}
+
+.country {
+    width: 58% ;
+}
+
+.score {
+    width:20% ;
+}
+
+li > div {
+    /* border: 2px solid black ; */
+    text-align: center ;
+}
+
+
+ol > li{
+    background-color: rgb(221, 221, 221) ;
+}
+
+li.heading + li.lable {
+    margin-top: 15px ;
+}
+
+li.lable + li.lable {
+    margin-top: 10px ;
+}
+
+li.lable {
+    transition: 0.5s ;
+}
+
+li.lable:hover {
+    box-shadow: 0px 0px 20px black ;
+    background-color: rgb(167, 167, 167) ;
+    cursor: pointer;
+    color: white ;
+}
+
+#msg {
+    margin-top: 20px ;
+    text-align: center ;
+}
+
+
+ol > li:nth-child(1){
+    background-color: rgb(83, 83, 83) ;
+    color: white ;
+}
+
+li {
+    border-radius: 20px ;
+
+}
+
+li > span {
+    display: inline-block;
+    text-align: center ;
+    font-size: 11pt ;
+}
+
+
+
+
